@@ -1,0 +1,65 @@
+/* css variables */
+/* 
+    - makes code cleaner and redable
+    - easy of change
+*/
+
+/* 
+    HOW TO GIVE NAMING - always give meaning full names.
+    full-name: "John Doe"
+    fullName: "John Doe"
+    FullName: "John Doe"
+    full_name: "John Doe"
+*/
+
+/* :root {
+    --my-color: aqua;
+    --secondary-color: #fff;
+    --section-padding: 50px 30px;
+}
+
+h1 {
+    color: var(--primary_color);
+} */
+
+.responsive {
+    display: flex;
+    justify-content: space-around;
+    gap: 5px;
+}
+.responsive .card {
+    width: 20vw;
+    height: 200px;
+    background-color: rgb(32, 255, 210);
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.5);
+}
+
+/* 
+    phone screens (0-720)
+    tablet screens (720-1024)
+*/
+
+/* 721-1024px - tablets */
+/* @media only screen and (max-width: 1024px) {
+    .responsive {
+        flex-wrap: wrap;
+        gap: 0;
+    }
+    .responsive .card {
+        background-color: yellow;
+        width: 50%;
+    }
+} */
+/* 0-720px - phone screen */
+/* @media only screen and (max-width: 720px) {
+    .responsive {
+        flex-direction: column;
+        flex-wrap: wrap;
+        gap: 0;
+    }
+    .responsive .card {
+        width: 100%;
+        background-color: red;
+    }
+} */

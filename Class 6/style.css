@@ -1,0 +1,51 @@
+*{
+    margin: 0;
+}
+
+/* Pseudo Classes */
+/* a:visited {
+    color: aqua;
+}
+a:hover {
+    border: 1px solid aqua;
+    border-radius: 4px;
+}
+
+a:link {
+    color: green;
+}
+
+a:active {
+    color: red;
+}
+
+p:hover{
+    color: aqua;
+    background-color: brown;
+}
+
+p:first-child{
+    color: red;
+} */
+
+
+/* CSS Combinators */
+/* .container .section p #test {
+    color: rgb(112, 112, 112)
+}
+
+.div, .p, .span {
+    color: red;
+}
+
+div > p {
+    color: red;
+} */
+
+/* Adjacent sibling selector */
+/* section + p {
+    color: green;
+} */
+section ~ p {
+    color: red;
+}
